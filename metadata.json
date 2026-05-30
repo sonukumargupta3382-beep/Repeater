@@ -1,0 +1,6 @@
+{
+  "name": "Text Repeater Pro",
+  "description": "A comprehensive and modern online text utility Web Application.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
