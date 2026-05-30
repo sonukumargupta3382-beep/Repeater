@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Type, Repeat, ArrowLeftRight, CaseUpper, Binary, Sparkles, Menu, X, Globe } from 'lucide-react';
+import { Type, Repeat, ArrowLeftRight, CaseUpper, Binary, Menu, X, Globe } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'motion/react';
 
@@ -14,7 +14,6 @@ export const Header: React.FC = () => {
     { to: '/reverser', icon: ArrowLeftRight, label: t('nav_reverser') },
     { to: '/case', icon: CaseUpper, label: t('nav_case') },
     { to: '/word-counter', icon: Binary, label: t('nav_word') },
-    { to: '/fancy', icon: Sparkles, label: t('nav_fancy') },
   ];
 
   const languages = [

@@ -9,7 +9,6 @@ import { TextRepeater } from './pages/TextRepeater';
 import { TextReverser } from './pages/TextReverser';
 import { CaseConverter } from './pages/CaseConverter';
 import { WordCounter } from './pages/WordCounter';
-import { FancyText } from './pages/FancyText';
 
 export default function App() {
   return (
@@ -21,7 +20,6 @@ export default function App() {
           <Route path="/reverser" element={<TextReverser />} />
           <Route path="/case" element={<CaseConverter />} />
           <Route path="/word-counter" element={<WordCounter />} />
-          <Route path="/fancy" element={<FancyText />} />
         </Routes>
       </main>
     </div>
